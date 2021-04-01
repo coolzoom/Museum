@@ -75,7 +75,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\dev\Grafika\Museum x64\Museum\src;$(SolutionDir)src;$(SolutionDir)include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)src;$(SolutionDir)include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
@@ -181,7 +181,7 @@
     <ClCompile Include="src\Scene\Building.cpp" />
     <ClCompile Include="src\Shader.cpp" />
     <ClCompile Include="src\Texture.cpp" />
-    <ClCompile Include="src\Time.cpp" />
+    <ClCompile Include="src\mTime.cpp" />
     <ClCompile Include="src\Utility.cpp" />
     <ClCompile Include="src\VertexArray.cpp" />
   </ItemGroup>
@@ -443,7 +443,7 @@
     <ClInclude Include="src\Scene\Building.h" />
     <ClInclude Include="src\Shader.h" />
     <ClInclude Include="src\Texture.h" />
-    <ClInclude Include="src\Time.h" />
+    <ClInclude Include="src\mTime.h" />
     <ClInclude Include="src\Utility.h" />
     <ClInclude Include="src\VertexArray.h" />
   </ItemGroup>
